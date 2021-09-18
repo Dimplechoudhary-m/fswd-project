@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar-brand{
+    font-weight: bold;
+    padding: 50px;
+    font-size: 3em;
+    color: #fff;
+    font-style: oblique;
+
+}
+.navbar-bar{
+    padding-left: 100px;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fff;
+    font-style: oblique;
+    transition: transform 0.5s;
+}
+
+.nav-link:hover{
+    background-color: #3498db;
+    transform:translateY(-20%);
+    border-radius: 20px;
+}
+.remove{
+    margin: 0;
+    padding: 0;
+}
+.vid-parent{
+    position: relative;
+
+}
+.remove video{
+    height: 100%;
+    width: 100%;
+}
