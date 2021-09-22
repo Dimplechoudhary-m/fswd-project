@@ -1,0 +1,29 @@
+
+.navbar-brand{
+    font-weight: bold;
+    padding: 50px;
+    font-size: 3em;
+    color: #fff;
+    font-style: oblique;
+
+}
+
+.navbar-bar{
+    padding-left: 100px;
+    
+}
+.nav-link{
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    font-style: oblique;
+    transition: transform 0.5s;
+    margin-top: 100px;
+    margin-left: 100PX;
+    font-size: 1.5VW;
+}
+
+.nav-link:hover{
+    background-color: #3498db;
+    transform:translateY(-20%);
+    border-radius: 20px;
+}
